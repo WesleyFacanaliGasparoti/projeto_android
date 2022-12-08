@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "android";
+    src: url(fontes/._idroid.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:'Android';
+    src: url('fontes/._idroid') format('opentype');
+}
+
+
+/* Configurações Gerais */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+:root{
+    --cor01: black;
+    --cor02: white;
+
+}
+
+body{
+    background-color: rgb(130, 230, 155);
+}
+
+/* Configurações Header */
+header{
+    background-image: linear-gradient(to bottom , rgb(47, 112, 47) , rgb(10, 64, 10) 80%);
+    color: var(--cor02) ;
+    padding-top: 1.2em;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+h1{
+    padding-bottom: 0.6em;
+    font-size: 3em;
+    text-align: center;
+}
+
+#paragrafo_header{
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+ul{
+    margin-left: 0.8em;
+}
+.lista_header_ {
+    display: inline-block;
+    
+    
+    
+}
+
+.link_header{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0.5em
+    ;
+}
+
+.link_header:hover{
+    background-image: linear-gradient(to top , rgb(57, 83, 57) , rgb(90, 165, 119));
+    
+    transition-duration: 1s;
+
+}
+
+
+/* Configurações main */
+
+main{
+    max-width: 950px;
+    min-width: 325px;
+    margin: auto;
+    background-color: white;
+    padding: 1.2em 0.8em 1.2em 0.8em ;
+    box-shadow: 2px 2px 4px green;
+    font-family: "Android";
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+h2{
+    color: rgb(0, 97, 0);
+    font-size: 2em;
+}
+
+.paragrafos_main{
+    text-indent: 1.9em;
+    text-align: justify;
+    padding: 0.8em 0px;
+}
+
+.links_geral{
+    text-decoration: none;
+    color: black;
+}
+
+.links_geral::after{
+    content: " ↲";
+}
+
+.h3_main{
+    background-image: linear-gradient(to right , rgb(164, 231, 164) , white);
+    font-size: 1.5em;
+    padding: 0.1em 0px 0.1em 0px;
+    padding-left: 0.2em;
+    color: rgb(7, 111, 7);
+}
+
+.robos_android{
+    display: block;
+    margin: auto;
+}
+
+.foto_irina{
+    display: block;
+    margin: auto;
+}
+
+.logo_android{
+    display: block;
+    margin: auto;
+}
+
+.video_iframe{
+    background-color: green;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+#video_android{
+    display: block;
+    margin: auto;
+}
+
+.caixa_curiosidades {
+    background-color: rgb(194, 236, 194);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px green;
+    padding: 0px 0.3em 0px 0px;
+}
+
+h4{
+    background-color: rgb(65, 132, 65);
+    color: white;
+    font-size: 1.3em;
+    padding-left: 0.3em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    ;
+}
+
+
+.links_caixa{
+    list-style: none;
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+}
+
+.links_caixa::before{
+    content: "→ ";
+}
+
+
+footer{
+    margin-top: 0.5em;
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    padding: 0.3em 0px;
+}
+

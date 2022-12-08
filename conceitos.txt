@@ -1,0 +1,82 @@
+
+
+Configurações gerais do projeto - 
+
+Criação de Variaveis -
+
+Atraves do "root"
+
+:root {
+	--nome_variavel : cor, fonte, tamanho e etc... 
+
+{
+
+Como usar ? 
+
+main{
+
+	color: nome_variavel ;
+}
+
+
+
+Colocar emojis (passo a passo ) -
+
+
+1 passo - Entrar no site emojipedia 
+2 passo - Escolher o emoji na emojipedia
+3 passo - Pegar o codigo do emoji em questão
+4 passo - Entrar dentro do codigo colocar o \codigo
+5 passo - Se for colocar espaço o codigo é "\00A0"
+
+Colocando iframes em videos -
+
+
+
+
+
+Seletores personalizados de bordas arrendodas - 
+
+border-top-right-radius : valor
+border-top-left-radius : valor
+border-bottom-right-radius : valor
+border-bottom-right-radius : valor
+
+
+Posso definir dentro de um bloco o max-widht e o min-width;
+
+main{
+	max-widht : 800px
+	min-width : 400px
+}
+
+Posso colocar minha imagem pra se adaptar ao tamanho de tela, basta configurar o width e height dela:
+
+img{
+	width: 100%
+	height: 50%
+}
+
+Obs - Lembrando que imagens possuem o tipo display : inline 
+
+
+Line Height - Altura de uma linha pra outra
+
+p{
+  line-height : 1.em :
+}
+
+
+
+Trabalhando com Listas -
+
+list-style-position : inside 
+
+Obs- O inicial desse estilo é ofside 
+
+Dividir a lista em colunas - 
+
+columns : quantidade de colunas
+
+
+
